@@ -155,7 +155,7 @@ rpm -ivh : to intall a rpm package
 
 find / -name to find any file or directory in linux file system
 
-
+locate : we use to search the files in linux 
 
 
 
