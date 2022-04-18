@@ -1,0 +1,161 @@
+grep -w target1* inventory
+
+sudo su - : to become a root user
+
+
+ls : list the directories and files
+ls -l : list the directories and files with details with size, ownership, date, time
+ls -la : same as ls -l but also shows hidden files 
+clear : clear the screen
+exit : it will end (log out) the current session
+date : it will shows current date and time
+whoami : shows the current logged in user
+w : shows all the current logged in user {NEW}
+cd : change the current working directory
+touch : it create empty file 
+cat : to read the content of the file
+vi : to create and edit any file
+mkdir : create new directories
+rm : remove file or directories {rm -f [it removes files forcefuly], rm -r [it removes recursively]}
+cp : to copy file or directory from source to distination
+mv : move or rename any file or directory
+man : gives detailed info about the command
+chmod : Changing the permissions of the file
+
+--------------------------------------------------------------------------------\
+
+New:-
+
+w : shows all the current logged in user
+
+whoami : shows the current logged in user
+
+ls -li : same as 'ls -la' but it will also shows us the inode number of each and every file
+
+who : by this command you can see the user name and their ip addresses
+      who have loged in on your server
+
+su : to become a super user
+
+rpm -ivh : to intall a rpm package
+
+find / -name : to find any file or directory in linux file system
+
+su username : to switch from one user to another users home directory
+
+su - username : to switch from one user to another user users home directory directly
+
+useradd : to create a new user
+
+passwd : to give a password of a user
+
+userdel : to remove a user from linux
+
+groupadd : to add a new group
+
+gruopdel : to delete a group
+
+chown : to change the ownership of a file or directory
+
+chgrp : to change the group ownership of a file or directory
+
+usermod : to modify the user profile
+
+---------------------------------------------------
+
+
+
+---------------------------------------------------
+
+cal: Command to see calender for any specific month or a complete year
+
+date: displays the current date
+
+echo: Print message on the terminal
+
+script : command records your session and stores it in a file
+
+passwd : command allows you to change your password
+
+chown : command is used for changing the ownership and also group of the file
+
+tac : command is used to display the contents of a small file in reverse order on terminal
+
+more and less : - commands are used to view large files one page at a time
+		- less is the standard pager for linux and in general less is
+		  more powerful than more
+
+wc : command is used to count lines, words and characters, depending on the option used.
+	-l : Number of lines
+	-w : Number of words
+	-c : Number of characters
+
+cmp : command is used to compare two files whether they are identical or not
+
+comm : command displays what is common between both the files
+
+gzip command is used to compress the file, and gunzip is used to de-compress it.
+	gzip <file name>		gunzip <file name with.gz>
+
+tar command is used to create archive that contains a group or file or entire directory structure.
+	tar [options] <output file.tar> <file1 or dir>
+		-c Create an archive
+		-x Extract files from archive
+		-t Display files in archive
+		-f Name the archive
+		-v verbose
+
+Instead of doing tar first and then gzip next, we can combine both of them using the option -z
+		tar -cvzf compression.tar.gz compression
+
+zip command can be used for archiving as well as compressing the contents of the directory or the file
+	zip sample1.zip sample1.txt		unzip compression.zip
+Use -r option to recursively zip the contents of the directory
+
+tail or head with -n followed by a number will display that many number of lines from last and from first respectively
+	head -n 20 sample1.txt		tail -n 15 sample1.txt
+
+cut command can be used to cut the columns from a file with -c option
+		cut -c [numbers delemited by comma or range] <file name>
+
+		cut -d" " -f1,4 <file_name>
+-d option is used to specify the delimiter and -f option used to specify the feild number
+
+paste command will paste the contents of the file side by side
+		paste <file1_name> <file2_name>
+
+sort : ordering a file
+sort -t" " -k 2 <file_name>
+
+----------------------------------------------------------------------------------------------\
+
+su : to become a super user
+
+rpm -ivh : to intall a rpm package
+
+find / -name : to find any file or directory in linux file system
+
+su username : to switch from one user to another users home directory
+
+su - username : to switch from one user to another user users home directory directly
+
+useradd : to create a new user
+
+passwd : to give a password of a user
+
+userdel : to remove a user from linux
+
+
+
+
+
+
+
+rpm -ivh : to intall a rpm package
+
+find / -name to find any file or directory in linux file system
+
+
+
+
+
