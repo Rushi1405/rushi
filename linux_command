@@ -2,7 +2,6 @@ grep -w target1* inventory
 
 sudo su - : to become a root user
 
-
 ls : list the directories and files
 ls -l : list the directories and files with details with size, ownership, date, time
 ls -la : same as ls -l but also shows hidden files 
@@ -64,9 +63,6 @@ usermod : to modify the user profile
 ---------------------------------------------------
 
 
-
----------------------------------------------------
-
 cal: Command to see calender for any specific month or a complete year
 
 date: displays the current date
@@ -86,9 +82,9 @@ more and less : - commands are used to view large files one page at a time
 		  more powerful than more
 
 wc : command is used to count lines, words and characters, depending on the option used.
-	-l : Number of lines
-	-w : Number of words
-	-c : Number of characters
+		-l  Number of lines
+		-w  Number of words
+		-c  Number of characters
 
 cmp : command is used to compare two files whether they are identical or not
 
@@ -145,17 +141,4 @@ passwd : to give a password of a user
 
 userdel : to remove a user from linux
 
-
-
-
-
-
-
-rpm -ivh : to intall a rpm package
-
-find / -name to find any file or directory in linux file system
-
 locate : we use to search the files in linux 
-
-
-
